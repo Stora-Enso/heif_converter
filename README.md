@@ -8,7 +8,9 @@ Add the Package
 
 ```yaml
 dependencies:
-  heif_converter: ^lastVersion
+  heif_converter:
+    git:
+      url: https://github.com/Stora-Enso/heif_converter.git
 ```
 
 ## How to use
